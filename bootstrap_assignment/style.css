@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div .col-md-4 {
+    border-radius: 10px;
+}
+
+.carousel-inner img{
+    object-fit: cover;
+    margin: auto;
+}
+
+@media only screen and  (max-width: 992px) {
+    .carousel-inner img{
+        height: 500px;
+    }
+    .nav-link {
+       max-width: 100%;
+        display: block;
+        position: relative;
+        z-index: 2;
+        text-align: right;
+        background: #8B6C60;
+    }
+}
+
+
+
+
+@media only screen and  (max-width: 576px) {
+    .carousel-inner img{
+        height: 300px;
+    }
+    
+}
